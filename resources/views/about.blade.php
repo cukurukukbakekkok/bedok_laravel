@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>about</title>
-</head>
-<body>
-    <h1>TNI AMERIKA</h1>
-</body>
-</html>
+@extends('layouts.master')
+
+@section('konten')
+    <h1>Selamat Datang Di Halaman About</h1>
+    <div class="card">
+        <div class="card-body">
+            Selamat datang di halaman about kami. Ini adalah halaman utama yang memberikan informasi terbaru dan penting.
+        </div>
+    </div>
+@endsection
